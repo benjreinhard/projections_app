@@ -139,7 +139,7 @@ st.title("College Baseball Projection Leaderboards")
 tab_hit, tab_pitch = st.tabs(["Hitters", "Pitchers"])
 
 with tab_hit:
-    st.subheader("Hitter Point Projections")
+    st.subheader("Hitter Projections")
 
     conf = st.multiselect("Conference", confs, default=confs, key="hit_conf")
     name = st.text_input("Search Player", key="hit_search")
