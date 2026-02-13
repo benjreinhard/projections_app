@@ -18,9 +18,6 @@ pitchers = load_pitchers()
 st.title("College Baseball Projection Leaderboards")
 tab_hit, tab_pitch = st.tabs(["Hitters", "Pitchers"])
 
-# ==============================
-# HIT TAB
-# ==============================
 with tab_hit:
     st.subheader("Hitter Projections")
     conf_options = sorted(hitters["Conference"].dropna().unique())
@@ -45,9 +42,6 @@ with tab_hit:
         use_container_width=True
     )
 
-# ==============================
-# PITCH TAB
-# ==============================
 with tab_pitch:
     st.subheader("Pitcher Projections")
     conf_options = sorted(pitchers["Conference"].dropna().unique())
