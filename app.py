@@ -12,6 +12,10 @@ DIV_FILES = {
         "hitters": "New folder (2)/2026_d2_hitter_final.csv",
         "pitchers": "New folder (2)/2026_d2_pitcher_final.csv",
     },
+    "D3": {
+        "hitters": "New folder (2)/2026_d3_hitter_final.csv",
+        "pitchers": "New folder (2)/2026_d3_pitcher_final.csv",
+    },
 }
 
 division = st.selectbox("Division", list(DIV_FILES.keys()), index=0)
